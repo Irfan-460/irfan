@@ -1,135 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="style2.css">
-    
-</head>
-<body>
-    
-    <div class="main">
-        <div class="navbar">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">EDUCATION</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">MY WORKS</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="style4.css">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <div class="info">
-            <h3>Hi, I'm <span>Karivena Irfan </span>.</h3>
-            <h1><span>W</span>EB <span>D</span>ESIGNER</h1>
-            <h3> To secure a challenging position where i can effectively contribute my skills as a software professional, <br>processing component technical skills and communication skills.  <br> </h3>
-                <a href="#">Hire Me</a>
-        </div>
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Karivena Irfan</a>
+                </div>
 
-        <div class="image">
-            <img src="irfan.png" class="girl">
-        </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#Education" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-        <div class="icons">
-            <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        </div>
-    </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-     
-                <img src="Assets/img/home.png" alt="" class="about__img">
-                 <!--==================== EDUCATION ====================-->
-        <div class="education">
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
 
-         <section class="education section" id="education">
-               <h2 style="text-align: center;" class="section__title">EDUCATION</h2>
-               <div class="education__description"> 
-                  <p>
-                   RAJEEV GANDHI MEMORIAL COLLEGE OF ENGINEERING AND TECHNOLOGY  --   NANDYAL,INDIA.
-                  </p>
-                   <strong>Bachelor of Technology------ECE</strong>
-               </div>
-              
-               <div class="inter__description">
-                   <p>Sri Aditya junior college----- Atmakur,kurnool(Dist)</p>
-                   <strong>INTERMEDIATE----MPC</strong>
-               </div>
-   
-               <div class="school__description">
-                   <p>Sri Padmavathi High School--- Atmakur,INDIA.</p>
-                   <strong>SCHOOLING</strong>   
-               </div>
-   
-             <!--==================== MY SKILLS====================-->
-           <section class="skills" id="skills">
-           <h2 style="text-align: center;" class="section__title">SKILLS</h2>
-           <div class="skills__description"> 
-           
-               <li>
-                    
-                   <strong> C PROGRAMMING </strong>
-               </li>
-               
-               <li>
-                    
-                   <strong> PYTHON </strong>
-   
-               </li>
-               <li>
-                    
-                   <strong> HTML </strong>
-               </li>
-               <li>
-                    
-                   <strong> CSS</strong>
-               </li>
-               <li>
-                    
-                   <strong> JAVA </strong>(Basics)
-   
-               </li>
-           </div>
-           <h2 style="text-align: center;" class="section__title">MY WORKS </h2>
-           <div class="myworks__description"> 
-   
-               <p>
-                    
-                   <strong> PROJECT </strong>
-               </p>
-               <P>
-                   <H4> OTP Verification using Python 
-                   </H4>
-               </P>
-               <p>
-                   <H5>Developed a secure OTP verification system using Python to
-                   enhance user authentication.</H5><br>
-                   <H5>Implemented Twilio API for generating and sending OTPs via
-                   SMS for real-time verification.</H5><BR>
-                   <H5>Designed a user-friendly interface with Tkinter to input and
-                   validate OTPs efficiently.</H5><BR>
-                   <H4>Technical Skills used : Python </H4>
-               </p>
-           </div>
-               
-   
-         </section>
-       
-           <!--==================== CONTACT ====================-->
-           <section class="contact section" id="contact">
-               <h2 style="text-align: center;" class="section__title">CONTACT</h2>
-               <div class="contact__descripition"> 
-                   <p>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
 
-                    Gmail:skirfu3@gmail.com <br>
-                    Phone:6304860162
-                   </p>
-               </div>
-   
-           </section>
-        </div>
-           
-   </body>
-   </html>
+                    <img src="irfu3.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="irfu3.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Irfan</h2>
+                        <span class="about__profession">Web designer</span>
+                        <p class="about__text">I am Irfan,To secure a challenging position where i can effectively contribute my skills as a software professional, 
+                            processing component technical skills and communication skills.
+
+                        </p>
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">C</span>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Java</span>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="Education details" id="Education">
+                <h2 class="section-title">Education</h2>
+
+                <div>
+                    <li><strong>B.TECH</strong>, Rajeev Gandhi Memorial college of engineering and technology, 2021-2025</li>
+                    <li><strong>INTERMEDIATE</strong>, sri Aditya Junior College, 2020</li>
+                    <li><strong>SSC</strong>, sri Padmavathi High School, 2019</li>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">skirfu3@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 6304860162</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">ATMAKUR(M),NANDYAL(D),ANDHRAPRADESH</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Irfan</h2>
+                    <p class="footer__text">I'm Irfan and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+        
+    </body>
+</html>
